@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		530FAB7A25D15DC40013AEF3 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB6825D15DC40013AEF3 /* Montserrat-ExtraLightItalic.ttf */; };
+		530FAB7B25D15DC40013AEF3 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB6925D15DC40013AEF3 /* Montserrat-Black.ttf */; };
+		530FAB7C25D15DC40013AEF3 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB6A25D15DC40013AEF3 /* Montserrat-Italic.ttf */; };
+		530FAB7D25D15DC40013AEF3 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB6B25D15DC40013AEF3 /* Montserrat-ExtraBold.ttf */; };
+		530FAB7E25D15DC40013AEF3 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB6C25D15DC40013AEF3 /* Montserrat-Light.ttf */; };
+		530FAB7F25D15DC40013AEF3 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB6D25D15DC40013AEF3 /* Montserrat-Bold.ttf */; };
+		530FAB8025D15DC40013AEF3 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB6E25D15DC40013AEF3 /* Montserrat-ExtraBoldItalic.ttf */; };
+		530FAB8125D15DC40013AEF3 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB6F25D15DC40013AEF3 /* Montserrat-LightItalic.ttf */; };
+		530FAB8225D15DC40013AEF3 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7025D15DC40013AEF3 /* Montserrat-MediumItalic.ttf */; };
+		530FAB8325D15DC40013AEF3 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7125D15DC40013AEF3 /* Montserrat-Thin.ttf */; };
+		530FAB8425D15DC40013AEF3 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7225D15DC40013AEF3 /* Montserrat-ThinItalic.ttf */; };
+		530FAB8525D15DC40013AEF3 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7325D15DC40013AEF3 /* Montserrat-Regular.ttf */; };
+		530FAB8625D15DC40013AEF3 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7425D15DC40013AEF3 /* Montserrat-BlackItalic.ttf */; };
+		530FAB8725D15DC40013AEF3 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7525D15DC40013AEF3 /* Montserrat-Medium.ttf */; };
+		530FAB8825D15DC40013AEF3 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7625D15DC40013AEF3 /* Montserrat-ExtraLight.ttf */; };
+		530FAB8925D15DC40013AEF3 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7725D15DC40013AEF3 /* Montserrat-SemiBold.ttf */; };
+		530FAB8A25D15DC40013AEF3 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7825D15DC40013AEF3 /* Montserrat-SemiBoldItalic.ttf */; };
+		530FAB8B25D15DC40013AEF3 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7925D15DC40013AEF3 /* Montserrat-BoldItalic.ttf */; };
+		53AD8ABB25D157160004C4D6 /* MarkBusinessCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD8ABA25D157160004C4D6 /* MarkBusinessCardApp.swift */; };
+		53AD8ABD25D157160004C4D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD8ABC25D157160004C4D6 /* ContentView.swift */; };
+		53AD8ABF25D157170004C4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AD8ABE25D157170004C4D6 /* Assets.xcassets */; };
+		53AD8AC225D157170004C4D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AD8AC125D157170004C4D6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		530FAB6825D15DC40013AEF3 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLightItalic.ttf"; path = "../../../../../../Montserrat/Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		530FAB6925D15DC40013AEF3 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Black.ttf"; path = "../../../../../../Montserrat/Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		530FAB6A25D15DC40013AEF3 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Italic.ttf"; path = "../../../../../../Montserrat/Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		530FAB6B25D15DC40013AEF3 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../../../../../../Montserrat/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		530FAB6C25D15DC40013AEF3 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light.ttf"; path = "../../../../../../Montserrat/Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		530FAB6D25D15DC40013AEF3 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../../../../Montserrat/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		530FAB6E25D15DC40013AEF3 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBoldItalic.ttf"; path = "../../../../../../Montserrat/Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		530FAB6F25D15DC40013AEF3 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-LightItalic.ttf"; path = "../../../../../../Montserrat/Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		530FAB7025D15DC40013AEF3 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-MediumItalic.ttf"; path = "../../../../../../Montserrat/Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		530FAB7125D15DC40013AEF3 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Thin.ttf"; path = "../../../../../../Montserrat/Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		530FAB7225D15DC40013AEF3 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ThinItalic.ttf"; path = "../../../../../../Montserrat/Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		530FAB7325D15DC40013AEF3 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../../../../Montserrat/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		530FAB7425D15DC40013AEF3 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BlackItalic.ttf"; path = "../../../../../../Montserrat/Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		530FAB7525D15DC40013AEF3 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../../../../../../Montserrat/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		530FAB7625D15DC40013AEF3 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLight.ttf"; path = "../../../../../../Montserrat/Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		530FAB7725D15DC40013AEF3 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../../../Montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		530FAB7825D15DC40013AEF3 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBoldItalic.ttf"; path = "../../../../../../Montserrat/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		530FAB7925D15DC40013AEF3 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BoldItalic.ttf"; path = "../../../../../../Montserrat/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		53AD8AB725D157160004C4D6 /* MarkBusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkBusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53AD8ABA25D157160004C4D6 /* MarkBusinessCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkBusinessCardApp.swift; sourceTree = "<group>"; };
+		53AD8ABC25D157160004C4D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		53AD8ABE25D157170004C4D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		53AD8AC125D157170004C4D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		53AD8AC325D157170004C4D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53AD8AB425D157160004C4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		530FAB6725D15BD90013AEF3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				530FAB6925D15DC40013AEF3 /* Montserrat-Black.ttf */,
+				530FAB7425D15DC40013AEF3 /* Montserrat-BlackItalic.ttf */,
+				530FAB6D25D15DC40013AEF3 /* Montserrat-Bold.ttf */,
+				530FAB7925D15DC40013AEF3 /* Montserrat-BoldItalic.ttf */,
+				530FAB6B25D15DC40013AEF3 /* Montserrat-ExtraBold.ttf */,
+				530FAB6E25D15DC40013AEF3 /* Montserrat-ExtraBoldItalic.ttf */,
+				530FAB7625D15DC40013AEF3 /* Montserrat-ExtraLight.ttf */,
+				530FAB6825D15DC40013AEF3 /* Montserrat-ExtraLightItalic.ttf */,
+				530FAB6A25D15DC40013AEF3 /* Montserrat-Italic.ttf */,
+				530FAB6C25D15DC40013AEF3 /* Montserrat-Light.ttf */,
+				530FAB6F25D15DC40013AEF3 /* Montserrat-LightItalic.ttf */,
+				530FAB7525D15DC40013AEF3 /* Montserrat-Medium.ttf */,
+				530FAB7025D15DC40013AEF3 /* Montserrat-MediumItalic.ttf */,
+				530FAB7325D15DC40013AEF3 /* Montserrat-Regular.ttf */,
+				530FAB7725D15DC40013AEF3 /* Montserrat-SemiBold.ttf */,
+				530FAB7825D15DC40013AEF3 /* Montserrat-SemiBoldItalic.ttf */,
+				530FAB7125D15DC40013AEF3 /* Montserrat-Thin.ttf */,
+				530FAB7225D15DC40013AEF3 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		53AD8AAE25D157160004C4D6 = {
+			isa = PBXGroup;
+			children = (
+				53AD8AB925D157160004C4D6 /* MarkBusinessCard */,
+				53AD8AB825D157160004C4D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53AD8AB825D157160004C4D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53AD8AB725D157160004C4D6 /* MarkBusinessCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53AD8AB925D157160004C4D6 /* MarkBusinessCard */ = {
+			isa = PBXGroup;
+			children = (
+				530FAB6725D15BD90013AEF3 /* Fonts */,
+				53AD8ABA25D157160004C4D6 /* MarkBusinessCardApp.swift */,
+				53AD8ABC25D157160004C4D6 /* ContentView.swift */,
+				53AD8ABE25D157170004C4D6 /* Assets.xcassets */,
+				53AD8AC325D157170004C4D6 /* Info.plist */,
+				53AD8AC025D157170004C4D6 /* Preview Content */,
+			);
+			path = MarkBusinessCard;
+			sourceTree = "<group>";
+		};
+		53AD8AC025D157170004C4D6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				53AD8AC125D157170004C4D6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53AD8AB625D157160004C4D6 /* MarkBusinessCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53AD8AC625D157170004C4D6 /* Build configuration list for PBXNativeTarget "MarkBusinessCard" */;
+			buildPhases = (
+				53AD8AB325D157160004C4D6 /* Sources */,
+				53AD8AB425D157160004C4D6 /* Frameworks */,
+				53AD8AB525D157160004C4D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkBusinessCard;
+			productName = MarkBusinessCard;
+			productReference = 53AD8AB725D157160004C4D6 /* MarkBusinessCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53AD8AAF25D157160004C4D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					53AD8AB625D157160004C4D6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 53AD8AB225D157160004C4D6 /* Build configuration list for PBXProject "MarkBusinessCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53AD8AAE25D157160004C4D6;
+			productRefGroup = 53AD8AB825D157160004C4D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53AD8AB625D157160004C4D6 /* MarkBusinessCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53AD8AB525D157160004C4D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				530FAB8A25D15DC40013AEF3 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				530FAB8225D15DC40013AEF3 /* Montserrat-MediumItalic.ttf in Resources */,
+				530FAB8825D15DC40013AEF3 /* Montserrat-ExtraLight.ttf in Resources */,
+				530FAB8025D15DC40013AEF3 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				530FAB8525D15DC40013AEF3 /* Montserrat-Regular.ttf in Resources */,
+				530FAB8625D15DC40013AEF3 /* Montserrat-BlackItalic.ttf in Resources */,
+				530FAB7E25D15DC40013AEF3 /* Montserrat-Light.ttf in Resources */,
+				530FAB8925D15DC40013AEF3 /* Montserrat-SemiBold.ttf in Resources */,
+				530FAB8B25D15DC40013AEF3 /* Montserrat-BoldItalic.ttf in Resources */,
+				530FAB7C25D15DC40013AEF3 /* Montserrat-Italic.ttf in Resources */,
+				530FAB7D25D15DC40013AEF3 /* Montserrat-ExtraBold.ttf in Resources */,
+				53AD8AC225D157170004C4D6 /* Preview Assets.xcassets in Resources */,
+				530FAB7F25D15DC40013AEF3 /* Montserrat-Bold.ttf in Resources */,
+				530FAB7B25D15DC40013AEF3 /* Montserrat-Black.ttf in Resources */,
+				53AD8ABF25D157170004C4D6 /* Assets.xcassets in Resources */,
+				530FAB8125D15DC40013AEF3 /* Montserrat-LightItalic.ttf in Resources */,
+				530FAB8425D15DC40013AEF3 /* Montserrat-ThinItalic.ttf in Resources */,
+				530FAB8325D15DC40013AEF3 /* Montserrat-Thin.ttf in Resources */,
+				530FAB8725D15DC40013AEF3 /* Montserrat-Medium.ttf in Resources */,
+				530FAB7A25D15DC40013AEF3 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53AD8AB325D157160004C4D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53AD8ABD25D157160004C4D6 /* ContentView.swift in Sources */,
+				53AD8ABB25D157160004C4D6 /* MarkBusinessCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		53AD8AC425D157170004C4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		53AD8AC525D157170004C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53AD8AC725D157170004C4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MarkBusinessCard/Preview Content\"";
+				DEVELOPMENT_TEAM = N9D8WLVRMB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MarkBusinessCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rachapoom.MarkBusinessCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		53AD8AC825D157170004C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"MarkBusinessCard/Preview Content\"";
+				DEVELOPMENT_TEAM = N9D8WLVRMB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = MarkBusinessCard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Rachapoom.MarkBusinessCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53AD8AB225D157160004C4D6 /* Build configuration list for PBXProject "MarkBusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AD8AC425D157170004C4D6 /* Debug */,
+				53AD8AC525D157170004C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53AD8AC625D157170004C4D6 /* Build configuration list for PBXNativeTarget "MarkBusinessCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53AD8AC725D157170004C4D6 /* Debug */,
+				53AD8AC825D157170004C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53AD8AAF25D157160004C4D6 /* Project object */;
+}
