@@ -11,9 +11,16 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color(red: 0.64, green: 0.61, blue: 1.00)
-                // #a29bfe
                 .ignoresSafeArea(.all)
             VStack {
+                Image("Mark")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 150, height: 150, alignment: .center)
+                    .clipShape(Circle())
+                    .overlay(
+                        Circle().stroke(Color.white, lineWidth: 5)
+                    )
                 Text("Mark Rachapoom")
                     .fontWeight(.bold)
                     .padding()
