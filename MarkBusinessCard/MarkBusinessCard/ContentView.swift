@@ -29,6 +29,12 @@ struct ContentView: View {
                 Text("iOS Developer")
                     .foregroundColor(.white)
                     .font(.system(size: 20))
+                Divider()
+                RoundedRectangle(cornerRadius: 25)
+                    .fill(Color.white)
+                    .frame(height: 50)
+                    .overlay(Text("+1 860-795-3392"))
+                Image(systemName: "phone.fill")
             }
         }
     }
