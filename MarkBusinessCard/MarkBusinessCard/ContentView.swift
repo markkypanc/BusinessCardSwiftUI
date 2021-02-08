@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
-            Color(red: 0.64, green: 0.61, blue: 1.00)
+            Color(red: 1.00, green: 0.46, blue: 0.46)
                 .ignoresSafeArea(.all)
             VStack {
                 Image("Mark")
@@ -21,20 +21,20 @@ struct ContentView: View {
                     .overlay(
                         Circle().stroke(Color.white, lineWidth: 5)
                     )
+                    .shadow(color: .white, radius: 10, x: 0, y: 0)
+                    
                 Text("Mark Rachapoom")
                     .fontWeight(.bold)
                     .padding()
                     .font(Font.custom("Montserrat-SemiBold", size: 25))
                     .foregroundColor(.white)
                 Text("iOS Developer")
+                    .fontWeight(.medium)
                     .foregroundColor(.white)
                     .font(.system(size: 20))
                 Divider()
-                RoundedRectangle(cornerRadius: 25)
-                    .fill(Color.white)
-                    .frame(height: 50)
-                    .overlay(Text("+1 860-795-3392"))
-                Image(systemName: "phone.fill")
+                InfoView(text: "+1 860-395-3392", imageName: "phone.fill")
+                InfoView(text: "iosdeveloper@swifti.com", imageName: "cloud.fill")
             }
         }
     }
@@ -45,3 +45,5 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
+

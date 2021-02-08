@@ -25,6 +25,7 @@
 		530FAB8925D15DC40013AEF3 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7725D15DC40013AEF3 /* Montserrat-SemiBold.ttf */; };
 		530FAB8A25D15DC40013AEF3 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7825D15DC40013AEF3 /* Montserrat-SemiBoldItalic.ttf */; };
 		530FAB8B25D15DC40013AEF3 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 530FAB7925D15DC40013AEF3 /* Montserrat-BoldItalic.ttf */; };
+		530FAB9125D16A600013AEF3 /* infoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530FAB9025D16A600013AEF3 /* infoView.swift */; };
 		53AD8ABB25D157160004C4D6 /* MarkBusinessCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD8ABA25D157160004C4D6 /* MarkBusinessCardApp.swift */; };
 		53AD8ABD25D157160004C4D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53AD8ABC25D157160004C4D6 /* ContentView.swift */; };
 		53AD8ABF25D157170004C4D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 53AD8ABE25D157170004C4D6 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 		530FAB7725D15DC40013AEF3 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../../../Montserrat/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		530FAB7825D15DC40013AEF3 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBoldItalic.ttf"; path = "../../../../../../Montserrat/Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		530FAB7925D15DC40013AEF3 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-BoldItalic.ttf"; path = "../../../../../../Montserrat/Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		530FAB9025D16A600013AEF3 /* infoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoView.swift; sourceTree = "<group>"; };
 		53AD8AB725D157160004C4D6 /* MarkBusinessCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarkBusinessCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		53AD8ABA25D157160004C4D6 /* MarkBusinessCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkBusinessCardApp.swift; sourceTree = "<group>"; };
 		53AD8ABC25D157160004C4D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				53AD8ABE25D157170004C4D6 /* Assets.xcassets */,
 				53AD8AC325D157170004C4D6 /* Info.plist */,
 				53AD8AC025D157170004C4D6 /* Preview Content */,
+				530FAB9025D16A600013AEF3 /* infoView.swift */,
 			);
 			path = MarkBusinessCard;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530FAB9125D16A600013AEF3 /* infoView.swift in Sources */,
 				53AD8ABD25D157160004C4D6 /* ContentView.swift in Sources */,
 				53AD8ABB25D157160004C4D6 /* MarkBusinessCardApp.swift in Sources */,
 			);
